@@ -28,9 +28,6 @@ public class Program
     {
         while (true)
         {
-            Console.WriteLine("\n╔════════════════════════════════════════╗");
-            Console.WriteLine("║           UEFN PIE SETUP TOO           ║");
-            Console.WriteLine("╚════════════════════════════════════════╝");
             Console.WriteLine("\n1. Launch UEFN PIE");
             Console.WriteLine("2. Re-run Installation");
             Console.WriteLine("3. Change Fortnite Path");
