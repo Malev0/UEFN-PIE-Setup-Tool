@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 public class Program
 {
-    private const string URLS_CONFIG_URL = "https://raw.githubusercontent.com/bc2424/uefn-util/main/urls.txt";
+    private const string URLS_CONFIG_URL = "https://raw.githubusercontent.com/Malev0/UEFN-PIE-Setup-Tool/refs/heads/main/downloadUrls.txt";
     private const string CONFIG_FILE = "pie.config";
 
     static async Task Main()
