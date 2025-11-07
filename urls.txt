@@ -1,0 +1,12 @@
+# UEFN PIE Tool - Download URLs Configuration
+# Lines starting with # are comments and will be ignored
+# Format: key = value
+
+# Patched binaries archive
+patched_binaries = https://drive.usercontent.google.com/download?id=1iJya-b4LaFemnPQTDB_4uaPvMNx4derJ&export=download
+
+# UbaHost DLL file
+ubahost = https://github.com/bc2424/uefn-util/raw/refs/heads/main/x64Release/UbaHost.dll
+
+# Neonite server
+neonite = https://github.com/HybridFNBR/Neonite/archive/refs/heads/main.zip
