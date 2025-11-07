@@ -29,7 +29,7 @@ public class Program
         while (true)
         {
             Console.WriteLine("\n1. Launch UEFN PIE");
-            Console.WriteLine("2. Re-run Installation");
+            Console.WriteLine("2. Patch UEFN");
             Console.WriteLine("3. Change Fortnite Path");
             Console.WriteLine("4. Exit");
             Console.Write("\nSelect option: ");
@@ -66,7 +66,7 @@ public class Program
         ConfigManager.SaveConfig(CONFIG_FILE, fortnitePath);
         Console.WriteLine($"\n✓ Saved Fortnite path to {CONFIG_FILE}");
 
-        Console.WriteLine("\nSetup complete! Showing main menu...");
+        //Console.WriteLine("\nSetup complete! Showing main menu...");
         await Task.Delay(2000);
         Console.Clear();
         PrintBanner();
@@ -84,7 +84,7 @@ public class Program
             string exeDirectory = Path.GetDirectoryName(fortnitePath)!;
             string ubaPath = GetUbaPath(exeDirectory);
             
-            Console.WriteLine($"\nTarget UBA path: {ubaPath}");
+            //Console.WriteLine($"\nTarget UBA path: {ubaPath}");
             
             await InstallPatchedFilesAsync(exeDirectory, ubaPath, urls);
             await InstallNeoniteAsync(urls.NeoniteUrl);
